@@ -1,0 +1,13 @@
+*.pyc
+/data
+/log
+/tmp
+/result
+*.code-workspace
+/src/baselines/GPTFuzz
+/src/baselines/DeepInception
+/src/baselines/CipherChat
+/src/baselines/JailbreakingLLMs
+/src/plots/
+/src/defenses/
+/plot
