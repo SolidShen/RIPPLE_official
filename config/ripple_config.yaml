@@ -27,9 +27,9 @@ candidate_type: "mix"
 init_target_len: 100
 judge_model: "ensemble"
 judge_model_filepath: {"gptfuzz": "hubert233/GPTFuzz",
-                      "jailbroken": "/data/guangyu_shen/tdc_llm/ripple/data/cls/evaluator",
+                      "jailbroken": "",
                       "tdc": "TDC2023/Llama-2-13b-chat-cls-test-phase"}
 early_stop: True
-model_filepath: "/data/public_models/llama_v2_chat/Llama-2-7b-chat-hf"
+model_filepath: ""
 seed: 42
 parsing_method: "auto"
