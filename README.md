@@ -29,7 +29,7 @@ University of Massachusetts Amherst&nbsp;&nbsp;&nbsp;<br>
 <p align='center' style="text-align:center;font-size:2.5 em;">
 <b>
     <a href="" target="_blank" style="text-decoration: none;">[arXiv]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://github.com/SolidShen/RIPPLE_official/tree/main/docs/ripple_arxiv.pdf" target="_blank" style="text-decoration: none;">[PDF]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/SolidShen/RIPPLE_official/tree/official/docs/ripple_arxiv.pdf" target="_blank" style="text-decoration: none;">[PDF]</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </b>
 </p>
 
