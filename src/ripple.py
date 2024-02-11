@@ -460,7 +460,7 @@ class Ripple:
             self.logger.debug(f"candidate prompt id: {sample_id}    |   loss: {loss_list[sample_id]:.4f}    |   asr: {asr_list[sample_id]:.4f}  |   word_bleu_score: {word_bleu_score_list[sample_id]:.4f}  |   char_bleu_score: {char_bleu_score_list[sample_id]:.4f}  |   jaccard_score: {jaccard_score_list[sample_id]:.4f}")
             # self.logger.debug(f"candidate prompt id: {sample_id}    |   loss: {no_calib_loss_list[sample_id]:.4f}    |   asr: {asr_list[sample_id]:.4f}  |   word_bleu_score: {word_bleu_score_list[sample_id]:.4f}  |   char_bleu_score: {char_bleu_score_list[sample_id]:.4f}  |   jaccard_score: {jaccard_score_list[sample_id]:.4f}")
         
-        #* if there are mulitple samples has 1.00 ASR pick the one more diverse   
+        #* if there are multiple samples has 1.00 ASR pick the one more diverse   
         high_asr_num = (asr_list >= 0.999).nonzero(as_tuple=True)[0].shape[0] 
         if high_asr_num > 0:
             idx = torch.where(asr_list >= 0.999)[0]
